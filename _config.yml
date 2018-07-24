@@ -13,7 +13,8 @@ paginate:            5
 
 # About/contact
 author: Kaixiang
-  name:              Kaixiang
+name:              Kaixiang
+
 
 # Custom vars
 version:             1.0.0

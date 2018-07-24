@@ -1,0 +1,19 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+
+# Setup
+title:               Home Lab Defense
+tagline:             'A Jekyll theme'
+description:         'A blog about cryptography and offensive defense'
+url:                 ''
+baseurl:             ''
+paginate:            5
+
+# About/contact
+author: Kaixiang
+  name:              Kaixiang
+
+# Custom vars
+version:             1.0.0

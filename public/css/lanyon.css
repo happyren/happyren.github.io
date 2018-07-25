@@ -192,14 +192,13 @@ a.sidebar-nav-item:focus {
 
 .sidebar-social{
   list-style: none;
-  display: flex;
   margin: auto auto auto auto;
   padding: 0;
 }
 
 .sidebar-social li{
   float: left;
-  margin: auto 15px auto 15px;
+  margin: auto auto auto auto;
 }
 
 @media (min-width: 48em) {

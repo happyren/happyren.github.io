@@ -8,7 +8,7 @@ title:               Home Lab Defense
 tagline:  Learning never exhausts the mind.
 description:         'A blog about cryptography and offensive defense'
 url:                 https://happyren.github.io
-baseurl:             '/'
+baseurl:             'https://happyren.github.io'
 paginate:            5
 
 # About/contact

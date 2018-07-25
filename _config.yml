@@ -12,9 +12,9 @@ baseurl:             ''
 paginate:            5
 
 # About/contact
-author: Kaixiang
+author:            Kaixiang
 name:              Kaixiang
-github_username: happyren 
+github_username:   happyren 
 
 
 # Custom vars

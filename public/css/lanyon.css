@@ -194,6 +194,7 @@ a.sidebar-nav-item:focus {
   list-style: none;
   display: flex;
   margin: auto auto auto auto;
+  justify-content: center;
 }
 
 .sidebar-social li{

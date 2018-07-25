@@ -1,14 +1,18 @@
 ---
 layout: page
 title: About
+permalink: /about/
 ---
 
-## About this blog
+This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
-As **Feynman Technique** told us, to learn one thing thoroughly, one needs to be able to teach others.
+You can find the source code for Minima at GitHub:
+[jekyll][jekyll-organization] /
+[minima](https://github.com/jekyll/minima)
 
-This is a blog sharing knowledge mostly about cryptography and penetration testing, hopefully by sharing the things I learned, I can be better at them.
+You can find the source code for Jekyll at GitHub:
+[jekyll][jekyll-organization] /
+[jekyll](https://github.com/jekyll/jekyll)
 
-## About me
 
-I am a Master of Information Technology student currently studying in the University of Melbourne. It took me long enough to realize that my interest in penetration testing and cryptography. Now, on my way of self improvement, I wish to share with you and learn more.
+[jekyll-organization]: https://github.com/jekyll

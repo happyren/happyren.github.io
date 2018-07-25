@@ -193,6 +193,7 @@ a.sidebar-nav-item:focus {
 .sidebar-social{
   list-style: none;
   display: flex;
+  margin: auto auto auto auto;
 }
 
 .sidebar-social li{

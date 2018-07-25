@@ -151,6 +151,8 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-size: .875rem; /* 15px */
   color: rgba(255,255,255,.6);
+  display: grid;
+  grid-template-rows: 1fr 2fr 2fr 1fr;
   background-color: #202020;
   -webkit-transition: all .3s ease-in-out;
           transition: all .3s ease-in-out;
@@ -169,12 +171,19 @@ h1, h2, h3, h4, h5, h6 {
 .sidebar-item {
   padding: 1rem;
 }
+.sidebar-item #description{
+  grid-row: 1/2;
+}
+.sidebar-item #copyright{
+  grid-row: 4/5;
+}
 .sidebar-item p:last-child {
   margin-bottom: 0;
 }
 
 /* Sidebar nav */
 .sidebar-nav {
+  grid-row: 2/3;
   border-bottom: 1px solid rgba(255,255,255,.1);
 }
 .sidebar-nav-item {
@@ -200,6 +209,14 @@ a.sidebar-nav-item:focus {
   }
 }
 
+/*sidebar social media links*/
+.sidebar-social{
+  grid-row: 3/4;
+}
+
+.sidebar-social ul{
+  list-style: none;
+}
 /* Hide the sidebar checkbox that we toggle with `.sidebar-toggle` */
 .sidebar-checkbox {
   position: absolute;

@@ -194,6 +194,10 @@ a.sidebar-nav-item:focus {
   list-style: none;
 }
 
+.sidebar-social li{
+  float: left;
+}
+
 @media (min-width: 48em) {
   .sidebar-item {
     padding: 1.5rem;

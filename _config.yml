@@ -6,7 +6,7 @@ permalink:           pretty
 # Setup
 title:               Home Lab Defense
 tagline:             Learning never exhausts the mind.
-description:         'A blog about cryptography and offensive defense'
+description:         'A blog about offensive defese'
 url:                 https://happyren.github.io
 baseurl:             ''
 paginate:            5

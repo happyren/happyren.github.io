@@ -191,13 +191,10 @@ a.sidebar-nav-item:focus {
 }
 
 .sidebar-social{
-  list-style: none;
   padding: 1rem;
-}
-
-.sidebar-social li{
-  margin: auto auto auto auto;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
 }
 
 @media (min-width: 48em) {

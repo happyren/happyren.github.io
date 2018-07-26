@@ -1,5 +1,5 @@
 ---
-layout: post_by_tag
+layout: post
 title: Example content
 tags: [jekyll, documentation, examples]
 ---

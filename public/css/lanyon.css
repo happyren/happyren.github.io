@@ -199,6 +199,7 @@ a.sidebar-nav-item:focus {
 .sidebar-social li{
   float: left;
   margin: auto auto auto auto;
+  justify-content: center;
 }
 
 @media (min-width: 48em) {

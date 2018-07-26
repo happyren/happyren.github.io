@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_by_tag
 title: Introducing Lanyon
 tags: [jekyll, documentation]
 ---

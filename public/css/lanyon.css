@@ -192,8 +192,7 @@ a.sidebar-nav-item:focus {
 
 .sidebar-social{
   list-style: none;
-  margin: auto auto auto auto;
-  padding: 0;
+  padding: 1rem;
 }
 
 .sidebar-social li{

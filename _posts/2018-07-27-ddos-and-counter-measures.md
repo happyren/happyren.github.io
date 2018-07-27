@@ -1,7 +1,7 @@
 ---
 layout: post
 title: DDoS through botnet and Proactive Counter Measures
-tag: penetration
+tag: [penetration, academic]
 ---
 
 > This is a academic article!

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Internet Background Knowledge] Physical Layer
+title: Physical Layer[Introduction to Internet]
 tag: knowledge
 ---
 

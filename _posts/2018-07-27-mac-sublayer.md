@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Internet Background Knowledge] MAC sublayer
+title: MAC sublayer[Introduction to Internet]
 tag: knowledge
 ---
 

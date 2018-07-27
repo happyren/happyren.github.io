@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Internet Background Knowledge] Data Link Layer
+title: Data Link Layer[Introduction to Internet]
 tag: knowledge
 ---
 

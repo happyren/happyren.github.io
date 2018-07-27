@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Internet Background Knowledge]Transport Layer
+title: Transport Layer[Introduction to Internet]
 tag: knowledge
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data Link Layer[Introduction to Internet]
+title: Data Link Layer[Introduction to Internet-03]
 tag: knowledge
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Internet Background Knowledge] Introduction to Internet
+title: Introduction to Internet
 tag: knowledge
 ---
 

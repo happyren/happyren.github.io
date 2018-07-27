@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Internet Background Knowledge] Network Layer
+title: Network Layer[Introduction to Internet]
 tag: knowledge
 ---
 

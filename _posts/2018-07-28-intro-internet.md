@@ -72,7 +72,7 @@ It also provides an important protocol namely IP protocol.
 
 ### Transport Layer
 
-Transport layer provides efficient, reliable connection for the application layer.
+Transport layer provides efficient, reliable connection for the application layer. Simple speaking, it is Data-Link Layer on the scale of whole network.
 
 **Transmission Control Protocol TCP** is a connection oriented protocol, ** User Datagram Protocol UDP** is a connection less protocol.
 

@@ -58,13 +58,13 @@ plaintext should be divided into pairs: "CI", "PH", "ER". And after encryption: 
 
 **Hill cipher** utilizes the property of Matrix and inverse Matrix.
 
-M(M<sub>-1</sub>) = I
+M(M<sup>-1</sup>) = I
 
-for example, generating a key of 3 by 3 matrix M with inverse matrix M <sub>-1</sub>, divide the plaintext into 3 letter block P:
+for example, generating a key of 3 by 3 matrix M with inverse matrix M <sup>-1</sup>, divide the plaintext into 3 letter block P:
 
-P\*M -> C; C\*M <sub>-1</sub> -> P
+P\*M -> C; C\*M <sup>-1</sup> -> P
 
-and it is because P \* M(M <sub>-1</sub>) = P \* I = P
+and it is because P \* M(M <sup>-1</sup>) = P \* I = P
 
 ## Polyalphabetic Ciphers
 
@@ -79,9 +79,9 @@ P contains n letters, K contains m letters
 
 C = E(K, P)
 
-C <sup>i</sup> = (P <sup>i</sup> + K <sup>i mod m</sup>) mod 26
+C <sub>i</sub> = (P <sub>i</sub> + K <sub>i mod m</sub>) mod 26
 
-P <sup>i</sup> = (C <sup>i</sup> - K <sup>i mod m</sup>) mod 26
+P <sub>i</sub> = (C <sub>i</sub> - K <sub>i mod m</sub>) mod 26
 
 > due to the property of modular calculation
 

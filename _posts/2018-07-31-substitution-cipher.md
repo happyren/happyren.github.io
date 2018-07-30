@@ -89,4 +89,4 @@ P <sup>i</sup> = (C <sup>i</sup> - K <sup>i mod m</sup>) mod 26
 
 **One-Time Pad** is promised to be unbreakable. Because each key is used only once, so that even if the key is acquired, it only apply to one ciphertext. An example is [Cloudflare's LavaRand](https://blog.cloudflare.com/lavarand-in-production-the-nitty-gritty-technical-details/)
 
-> <a href="/assets/download/2017-07-31-substitution-cipher">Code available for download(currently only including *caesar* and *monoalphabetic*)</a>
+> <a href="/assets/download/2017-07-31-substitution-cipher/substitution-ciphers.zip">Code available for download(currently only including *caesar* and *monoalphabetic*)</a>

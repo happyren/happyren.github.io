@@ -45,7 +45,7 @@ It uses 26 character but has 676 diagrams. Although it is quite complicated, but
 For example, let's choose the keyword as "Playfair", and plaintext as "cipher"
 
 | 1 | 2 | 3 | 4 | 5 |
-|:-:|---|---|---|---|
+|:-:|:-:|:-:|:-:|:-:|
 | P | L | A | Y | F |
 | I/J | R | B | C | D |
 | E | G | H | K | M |

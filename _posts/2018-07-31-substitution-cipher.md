@@ -31,7 +31,7 @@ In the example, the plaintext is shifted by 10 using **Caesar Cipher**
 
 ## Playfair Cipher
 
-**Playfair cipher** is a minor upgrade from monoalphabetic ciphers, it uses a 5*5 table, choosing a keyword, ignore repeat letter, put the keyword from *right to left*, *top to bottom*, then fill the table with the remaining letters in alphabet, with *I and J* in the same cell.
+**Playfair cipher** is a minor upgrade from monoalphabetic ciphers, it uses a 5\*5 table, choosing a keyword, ignore repeat letter, put the keyword from -right to left-, -top to bottom-, then fill the table with the remaining letters in alphabet, with -I and J- in the same cell.
 
 **Four rules** apply to it:
 
@@ -73,7 +73,7 @@ and it is because P \* M(M <sup>-1</sup>) = P \* I = P
 1. A set of monoalphabetic ciphers.
 2. A key to determine which cipher to be used.
 
-One of the most simple and well known example would be *Vigenere Cipher*:
+One of the most simple and well known example would be -Vigenere Cipher-:
 
 P contains n letters, K contains m letters
 

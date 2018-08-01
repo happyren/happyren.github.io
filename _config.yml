@@ -19,3 +19,4 @@ author:
 
 # Custom vars
 #
+exclude: [node_modules]

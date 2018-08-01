@@ -5,7 +5,7 @@ permalink:           pretty
 
 # Setup
 title:               Home Lab Defense
-tagline:             Learn it the hard way.
+#tagline:             Learn it the hard way.
 description:         'To learn thoroughly, one must be able to teach. This is a blog to share the knowledge about the modern security, mostly on penetration testing and cryptography, but not limited by them.'
 url:                 https://happyren.github.io
 baseurl:             ''
@@ -19,4 +19,3 @@ author:
 
 # Custom vars
 #
-exclude: [node_modules]

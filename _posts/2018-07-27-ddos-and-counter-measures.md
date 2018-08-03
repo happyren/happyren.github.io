@@ -4,9 +4,9 @@ title: DDoS through botnet and Proactive Counter Measures
 tag: [penetration, academic]
 ---
 
-## Introduction
-
 With the rising of Internet service, the practice on attacking the server in order to block- ing users from getting service emerged, which is Denial of Service attack, dated back to 1990s[1]. As the server becoming more powerful, new attacks are derived utilizing compromised machines on a network as attacking power[2].
+
+## Introduction
 
 This survey report would focus on understanding dos attack through the botnet, which is widely spread due to its easiness by using toolkits like blackenergy [3], and a lot of countermeasures are developed such as firewalls and authentications.
 

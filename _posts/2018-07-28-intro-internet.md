@@ -4,8 +4,6 @@ title: Introduction to Computer Network
 tag: fundamental
 ---
 
-> This short article would briefly introduce relative topics about computer networks.
-
 Machines are connected, through network, and as I mentioned in my previous post, it is a very common way for one to exploit machines now and in the coming days. Learn fundamentals about the computer network is essential for security researher.
 
 ## Reference Models

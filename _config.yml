@@ -9,7 +9,7 @@ title:               Home Lab Defense
 description:         'To learn thoroughly, one must be able to teach. This is a blog to share the knowledge about the modern security, mostly on penetration testing and cryptography, but not limited by them.'
 url:                 https://happyren.github.io
 baseurl:             ''
-paginate:            5
+paginate:            10
 paginate_path:       "blog/page:num"
 
 # About/contact

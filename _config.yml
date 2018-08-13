@@ -5,7 +5,7 @@ permalink:           pretty
 
 # Setup
 title:               Home Lab Defense
-#tagline:             Learning never exhausts the mind.
+tagline:             Reading maketh a full man; conference a ready man; and writing an exact man.
 description:         'To learn thoroughly, one must be able to teach. This is a blog to share the knowledge about the modern security, mostly on penetration testing and cryptography, but not limited by them.'
 url:                 https://happyren.github.io
 baseurl:             ''

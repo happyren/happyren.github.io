@@ -3,7 +3,7 @@ layout: page
 title: GPG Key
 ---
 
-Copy from below or <a href="/assets/download/2017-08-20-GPG/public.asc">download</a>.
+Copy from below or <a href="/assets/download/2017-8-20-GPG/public.asc">download</a>.
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----

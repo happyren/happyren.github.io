@@ -61,5 +61,3 @@ Yeah right, just like how Sherlock Holmes did in the TV shows, despite how secur
 Setup your pin as your birthday? Not good. Change 0 to O? Not good. Show off a secret file? Definitely not good.
 
 Believe me, in my final exam in Computer Security, I really would like to answer all the questions with "Social Engineering". So human is the weakest part, let us learn, grow, and enhance it :)
-
-$$\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.$$

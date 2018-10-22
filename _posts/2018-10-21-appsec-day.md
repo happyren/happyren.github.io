@@ -8,7 +8,7 @@ The just finished OWASP AppSec Day Melbourne is a wonderful experience in the Oc
 
 ## Something new to me
 
-I think it is very informative because every talk I heared gives me new idea.
+Some simple and informative ideas I will talk about may not be new to you, but these links definitely helps!
 
 ### Important information sources
 

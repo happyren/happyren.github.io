@@ -10,7 +10,7 @@ In many cases, the deployment of cryptographic algorithms fail on their purposes
 
 **ECDSA** is short for Elliptic Curve Digital Signature Algorithm. Put the DSA aside, Elliptic Curve is a brilliant finite group where DLP is super hard. In fact, its way more efficient than RSA where 256 bits ECDSA has the same computational complexity compares to RSA with 3072 bits.
 
-![secp256k1](/assets/img/2019-03-09-lazy-mistake-ecdsa/secp256k1.png)
+![secp256k1](/assets/img/2019-03-09-lazy-mistake-ecdsa/Secp256k1.png)
 
 This is the figure of a elliptic curve group which is used by bitcoin. ( Secp256k1 :  y <sup>2</sup> = x <sup>3</sup> + 7 )
 

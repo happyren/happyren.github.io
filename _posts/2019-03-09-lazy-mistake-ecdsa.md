@@ -64,3 +64,5 @@ da = ((((s1 * k) % n) - z1) * modinv(r1, n)) % n
 ## Wrap up
 
 This is not the only issue caused by lazy mistake when applying cryptography, POODLE is another one which failed on using HMAC properly to check message integrity.
+
+So the thing we learn today is, don't be lazy, **Random! Random! Random!**

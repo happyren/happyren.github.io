@@ -26,6 +26,10 @@ Below are two images, the upper one is the carrier (original image), the bottom 
 
 ![Stegged Carrier Image](/assets/img/2019-04-10-steganography-hide-the-secret/new.png)
 
-Code for this demo comes [very detailed explaination by Andrew Scott](https://hackernoon.com/simple-image-steganography-in-python-18c7b534854f).
+Code for this demo comes with [very detailed explaination by Andrew Scott](https://hackernoon.com/simple-image-steganography-in-python-18c7b534854f).
+
+\*Quest: There is a **flag** hidden in the **title**, can you retrieve it?
 
 By now, you might have already grab this keyword and know what it means, there are plenty of methods under this catergory. Remeber to check **steganography** when you have no idea how to extract a hidden message.
+
+[Demo could be downloaded here with image file and payload file](/assets/download/2019-04-10-steganography-hide-the-secret/steg.tar)

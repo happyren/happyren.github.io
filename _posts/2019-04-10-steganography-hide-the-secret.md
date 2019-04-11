@@ -22,9 +22,9 @@ In the digital era, the way of steganography just go wider. Data can be conveyed
 
 Below are two images, the upper one is the carrier (original image), the bottom one carrys a secret image which is "I will hide this secret!" It is clear these two images are identical to human eyes, hence without causing any suspecious, the secret can be passed around.
 
-![Original Carrier Image](../assets/img/2019-04-10-steganography-hide-the-secret/input.png)
+![Original Carrier Image](/assets/img/2019-04-10-steganography-hide-the-secret/input.png)
 
-![Stegged Carrier Image](../assets/img/2019-04-10-steganography-hide-the-secret/new.png)
+![Stegged Carrier Image](/assets/img/2019-04-10-steganography-hide-the-secret/new.png)
 
 Code for this demo comes [very detailed explaination by Andrew Scott](https://hackernoon.com/simple-image-steganography-in-python-18c7b534854f).
 

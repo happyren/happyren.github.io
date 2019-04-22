@@ -20,3 +20,11 @@ Some coding just has to be done...
 If you can learn from coding, its good, otherwise...
 
 <a href="https://github.com/happyren/coding-practice"><i class="fab fa-github"> Github Home Page</i></a>
+
+---
+
+## Node.js RESTful API
+
+Node.js - Express based RESTful API to show off my skill on node.js.
+
+<a href="https://github.com/happyren/my-vidly-project"><i class="fab fa-github"> Github Home Page</i></a>

@@ -20,3 +20,5 @@ author:
 
 # Custom vars
 #
+plugins:
+  - jemoji

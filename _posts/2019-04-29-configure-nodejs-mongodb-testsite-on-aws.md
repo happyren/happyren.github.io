@@ -75,7 +75,7 @@ $ mongod --bind_ip_all
 
 ### Testing website port configuration
 
-It is crucial for someone who want to simulate a real life scenario to have the testing website running on port 80 :smirk:
+It is crucial for someone who want to simulate a real life scenario to have the testing website running on port 80:smirk:
 
 Two lines of shell code can help you with it, and you can find explanation in [this great answer on stackoverflow](https://stackoverflow.com/questions/23281895/node-js-eacces-error-when-listening-on-http-80-port-permission-denied)
 

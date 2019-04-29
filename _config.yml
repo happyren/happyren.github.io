@@ -10,7 +10,7 @@ description:         'Reading maketh a full man, conference a ready man and writ
 url:                 https://happyren.github.io
 baseurl:             ''
 paginate:            10
-paginate_path:       "/blog/page:num"
+paginate_path:       "/page:num"
 
 # About/contact
 author:            

@@ -129,4 +129,6 @@ Your server IP shall be found as your eth0 inet IP.
 
 Then come to your AWS EC2 console, in Security Group, create a new group to connect to your mysql database, in both inbound and outbound, select **MYSQL/Aurora** for server, and **My IP** for yourself.
 
+> If you are using elastic ip address, make sure in the .cnf file, you still use the eth0 IP aka your private IP address, but when connect to it from your own machine, use your elastic ip aka your public ip address.
+
 Now you can remote login to mysql securely only from your own machine with specified user.

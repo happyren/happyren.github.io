@@ -4,7 +4,7 @@ title: Securely deploy a MySQL server on AWS
 tag: fundamental
 ---
 
-In previous post, I have deployed a testing website for my project on aws. However, in order to quickly setup the testing environment, I didn't follow the good practice to make my database secured, rather, it is exposed for external attack. In this write up, I would walkthrough mysql's setup on AWS and try to make it secure.
+In previous post, I have deployed a testing website for my project on aws. However, in order to quickly setup the testing environment, I didn't follow the good practice to make my database secured, rather, it is exposed for external attack. In this write up, I would walkthrough mysql's setup on AWS and try to make it secure **given that you want remote connection**.
 
 | Software stack | Software | Version |
 | :-: | :-: | :-: |

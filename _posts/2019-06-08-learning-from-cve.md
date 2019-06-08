@@ -26,7 +26,7 @@ CVE entries normally would contain what the vulnerability has impact on. In gene
 
 Not all mistakes are unique, people constantly making the same mistakes, additional information for digging into would be [CWE (Common Weakness Enumeration)](https://cwe.mitre.org/). It gives you some idea about what leads to this vulnerability.
 
-For instance, [CVE-2018-0114](https://nvd.nist.gov/vuln/detail/CVE-2018-0114) is a JWT issue in earl versions of Cisco node-jose library, a mistake letting adversary to forge a fraud token signed by itself. It is not the first of its kind and deep in the core, it is actually a Diffie-Hellman Key Exchange mistake by blindly trust the key in the token header as authenticated. It shows the fact that for a JWT, it is not the JWT itself that has been authenticated, but rather the key which generates the JWT that has been authenticated. The trust should not be escalated to the whole JWT.
+For instance, [CVE-2018-0114](https://nvd.nist.gov/vuln/detail/CVE-2018-0114) is a JWT issue in earl versions of Cisco node-jose library, a mistake letting adversary to forge a fraud token signed by itself. It is not the first of its kind and deep in the core, it is actually a Diffie-Hellman Key Exchange mistake by blindly trust the key in the token header as authenticated ([CWE322](https://cwe.mitre.org/data/definitions/322.html)). It shows the fact that for a JWT, it is not the JWT itself that has been authenticated, but rather the key which generates the JWT that has been authenticated. The trust should not be escalated to the whole JWT.
 
 ## Learn how to mitigate (information to knowledge)
 

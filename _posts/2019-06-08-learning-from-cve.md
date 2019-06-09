@@ -6,6 +6,8 @@ tag: [fundamental, academic]
 
 As a security researcher, it is often necessary to learn from the past mistakes. From a broad sight, that is learn from CVE(Common Vulnerabilities and Exposures). CVE entries often provide basic description and external resources, but to really learn it and understand it, it requires further investigation or even hands on experiments. In this article, I would describe a scheme I used in academic assignment (with an example that I used : CVE-2018-0114), for digesting a CVE entry, and hopefully this scheme would help you.
 
+![theme](assets/img/2019-06-08-learning-from-cve/theme)
+
 ## Where are the CVEs
 
 Before you investigate a CVE, you need to know where to find them. [MITRE](http://cve.mitre.org/cve/) is a great resource, click on search you can find any types of cve you want, why not start from [OWASP Top 10](https://www.owasp.org/images/7/72/OWASP_Top_10-2017_%28en%29.pdf.pdf)?

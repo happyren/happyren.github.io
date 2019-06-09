@@ -11,6 +11,8 @@ In previous [post](https://homelabdefense.com/2019/04/29/configure-nodejs-mongod
 | OS | Ubuntu | 18.04 server |
 | db | MySQL | 5.7.26 |
 
+![theme](/assets/img/2019-05-11-secure-deployment-of-mysql-on-aws/theme.png)
+
 ## MySQL
 
 MySQL is claimed to be the most popular open source database, 

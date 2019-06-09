@@ -1,5 +1,5 @@
----
 ![theme](/assets/img/2019-05-11-secure-deployment-of-mysql-on-aws/theme.png)
+---
 layout: post
 title: Securely deploy a MySQL server on AWS
 tag: fundamental

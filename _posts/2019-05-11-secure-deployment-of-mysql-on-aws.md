@@ -4,7 +4,7 @@ title: Securely deploy a MySQL server on AWS
 tag: fundamental
 ---
 
-In previous [post](https://homelabdefense.com/2019/04/29/configure-nodejs-mongodb-testsite-on-aws/), I have deployed a testing website for my project on AWS (Amazon Web Service). However, in order to quickly setup the testing environment, I didn't follow the good practice to make my database secured, rather, it is exposed for external attack. In this write up, I would walkthrough mysql's setup on AWS and try to make it secure **given that you want remote connection**. The write up would focusing on deploy MySQL on EC2, one of the reason is normally I only use one instance for doing tests, that consists both web server and database; the other reason is AWS RDS didn't come across my mind, but more discuss about it in future is a definite.
+In previous [post](https://homelabdefense.com/2019/04/29/configure-nodejs-mongodb-testsite-on-aws/), I have deployed a testing website for my project on AWS (Amazon Web Service). However, to quickly set up the testing environment, I didn't follow the right practice to make my database secured. Instead, it is exposed to external attack. In this write-up, I would walk through mysql's setup on AWS and try to make it secure **given that you want remote connection**. The write-up would focus on deploying MySQL on EC2, one of the reason is I usually only use one instance for doing tests, that consists both web server and database; and is AWS RDS didn't come across my mind, but more discussion about it in future is a definite.
 
 | Software stack | Software | Version |
 | :-: | :-: | :-: |
@@ -22,7 +22,7 @@ $ sudo apt update
 $ sudo apt install mysql-server
 ```
 
-After this, the **admin** shall be the **root** user for the database, and you shall be able to connect to the database without password as root.
+After this, the **admin** shall be the **root** user for the database, and you shall be able to connect to the database without a password as root.
 
 ```shell
 $ sudo mysql -u root
@@ -55,9 +55,9 @@ mysql> SELECT USER(), CURRENT USER();
 
 ### Database User Setup
 
-For demo purpose, let's create a table for bank usage and two tables one named account the other named vendor_account. We can then create a database user to use this database, for example, we grant an accountant to view all vendor_account data.
+For demo purpose, let's create a table for bank usage and two tables, one named account the other named vendor_account. We can then create a database user to use this database. For example, we grant an accountant to view all vendor_account data.
 
-> Here is where we should be very careful about *the least privilege principle*, do not let any user to gain authorization for access beyond their needs. eg the accountant is authorized to read vendor_account table, so no write to vendor_account, and no access to account. Detailed grant usage is [here](https://dev.mysql.com/doc/refman/5.7/en/grant.html).
+> Here is where we should be cautious about *the least privilege principle*, do not let any user gain authorisation for access beyond their needs. E.g., the account is authorised to read vendor_account table, so no write to vendor_account, and no access to the account. Detailed grant usage is [here](https://dev.mysql.com/doc/refman/5.7/en/grant.html).
 
 ```shell
 mysql> CREATE USER 'accountant'@'localhost' IDENTIFIED BY 'MID)!c1DP@!<:D!@{';
@@ -67,7 +67,7 @@ mysql> GRANT SELECT ON bank.vendor_account TO 'accountant'@'localhost';
 Query OK, 0 rows affected (0.00 sec)
 ```
 
-So when this user would like to access table account in bank, it shall be denied:
+So when this user would like to access table account in the bank, it shall be denied:
 
 ```shell
 mysql> select * from account;
@@ -91,7 +91,7 @@ ERROR 1142 (42000): INSERT command denied to user 'accountant'@'localhost' for t
 
 ### Database Connection Setup
 
-Now you want to remote connect to your database to use applications like DataGrip. You need to firstly setup your user to be used for connection:
+Now you want to remote connect to your database to use applications like DataGrip. You need to first set up your user for connection:
 
 ```shell
 mysql> CREATE USER 'remote'@'remotehost' IDENTIFIED BY 'BD@!&lk321e)PQ';
@@ -127,10 +127,10 @@ bind-address = Your Server IP
 
 > Be very careful you have to set the IP to your server's IP **NOT** 0.0.0.0 because you don't want to expose your server to everyone.
 
-Your server IP shall be found as your eth0 inet IP.
+Your server IP would be found as your eth0 inet IP.
 
-Then come to your AWS EC2 console, in Security Group, create a new group to connect to your mysql database, in both inbound and outbound, select **MYSQL/Aurora** for server, and **My IP** for yourself.
+Then come to your AWS EC2 console, in Security Group, create a new group to connect to your MySQL database, in both inbound and outbound, select **MYSQL/Aurora** for server, and **My IP** for yourself.
 
-> If you are using elastic ip address, make sure in the .cnf file, you still use the eth0 IP aka your private IP address, but when connect to it from your own machine, use your elastic ip aka your public ip address.
+> If you are using an elastic IP address, make sure in the .cnf file, you still use the eth0 IP aka your private IP address, but when connecting to it from your machine, use your elastic IP aka your public IP address.
 
-Now you can remote login to mysql securely only from your own machine with specified user.
+Now you can remote login to MySQL securely only from your machine with the specified user.

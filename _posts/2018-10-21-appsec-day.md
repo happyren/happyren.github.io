@@ -1,7 +1,6 @@
 ---
 layout: post
 title: OWASP AppSec Day Melbourne
-tag: conference
 ---
 
 The just finished OWASP AppSec Day Melbourne is a wonderful experience in the Oct, and probably the most informative day on security of this year for me. I will concisely write down some important information and share with you!

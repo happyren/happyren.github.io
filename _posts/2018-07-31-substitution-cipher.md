@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Substitution Cipher
-tag: cryptography
 ---
 
 This article would be talking about the a classic encryption technique, substitution cipher. It substitute plain text with other characters so that the cipher text is generated. 

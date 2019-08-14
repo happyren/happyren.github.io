@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Steganography 󠁦󠁬󠁡󠁧󠁻󠁨󠀰- 󠁭󠀰󠁧󠁬󠁹󠁰󠁨hide 󠁟󠀱󠁳󠁟󠁡󠁷󠀳the 󠁳󠀰󠁭󠀳󠁽secret
-tag: keywords
 ---
 
 The action of consealing a file, a message, a secret has been there for a while, a while so long that dated back to 440 BC as the _steganography_ has first been recorded by Herodotus. While cryptography also hide information, the steganography prevails as it does not draw attentions. This article intends to introduce this keyword so you can have something to look for when necessary.

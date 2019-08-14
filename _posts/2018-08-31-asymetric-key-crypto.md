@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Asymetrical Key Cryptography
-tag: cryptography
 ---
 
 Aside from symmetric cipher, modern cryptography has a method to both encrypt a message, and sign a message. The technique used here is called asymetrical key cryptography, or public key cryptography. This article would introduces some basic ideas about the asymetrical key cryptography.

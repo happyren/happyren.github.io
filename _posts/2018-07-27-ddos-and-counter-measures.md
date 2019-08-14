@@ -1,7 +1,6 @@
 ---
 layout: post
 title: DDoS through botnet and Proactive Counter Measures
-tag: [pentest, academic]
 ---
 
 With the rising of Internet service, the practice on attacking the server in order to block- ing users from getting service emerged, which is Denial of Service attack, dated back to 1990s[1]. As the server becoming more powerful, new attacks are derived utilizing compromised machines on a network as attacking power[2].

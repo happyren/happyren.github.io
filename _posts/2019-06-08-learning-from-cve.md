@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Learning from cve
-tag: [fundamental, academic]
 ---
 
 As a security researcher, it is often necessary to learn from past mistakes. From a broad sight, that is learning from CVE(Common Vulnerabilities and Exposures). CVE entries often provide a basic description and external resources, but to really learn it and understand it, it requires further investigation or even hands-on experiments. In this article, I would describe a scheme I used in an academic assignment (with an example that I used: CVE-2018-0114), for digesting a CVE entry, and hopefully, this scheme would help you.

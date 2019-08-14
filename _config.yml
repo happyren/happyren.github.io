@@ -1,16 +1,15 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+permalink: pretty
 
 # Setup
-title:               Home Lab Defense
+title: Home Lab Defense
 #tagline:             Reading maketh a full man; conference a ready man; and writing an exact man.
-description:         'Reading maketh a full man, conference a ready man and writing an exact man. This is a blog to share the knowledge about the modern security, mostly on penetration testing and cryptography.'
-url:                 https://happyren.github.io
-baseurl:             ''
-paginate:            10
-paginate_path:       "/page:num"
+description: #
+newbaseurl: 
+url: https://happyren.github.io
+
 
 # About/contact
 author:            
@@ -21,4 +20,4 @@ author:
 # Custom vars
 #
 plugins:
-  - jemoji
+  #- jemoji

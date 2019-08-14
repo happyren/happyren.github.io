@@ -1,48 +1,70 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
 
-  {% include head.html %}
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>{{page.title}}</title>
+    <link rel="stylesheet" href="/public/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
+    <link rel="stylesheet" href="/public/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="/public/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="/public/css/brands.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    <link rel="stylesheet" href="/public/css/index.css">
+</head>
 
-  <body>
-
-    {% include sidebar.html %}
-
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
-         content to avoid any CSS collisions with our real content. -->
-    <div class="wrap">
-      <div class="masthead">
-        <div class="container">
-          <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-            <small>{{ site.tagline }}</small>
-          </h3>
+<body id="page-top">
+    <nav class="navbar navbar-light navbar-expand-md navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container"><a class="navbar-brand js-scroll-trigger" href="#" style="margin: -13px;padding: -35px;font-size: 21px;">Home Lab Defense</a><button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarResponsive" type="button"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" value="Menu"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive" style="width: 876px;margin: 8pxz;">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                </ul>
+            </div>
         </div>
-      </div>
+    </nav>
+    <header data-bs-parallax-bg="true" class="masthead" style="background-image:url('public/img/background.jpg');">
+        <div class="intro-body" style="margin: 5px;">
+            <div class="container">
+                <div class="row" style="margin: -15px;">
+                    <div class="col-lg-8 mx-auto">
+                        <h1 class="brand-heading" style="font-size: 59px;">Home Lab defense</h1>
+                        <p class="intro-text">Security is not an afterthought but a necessity.</p><a class="btn btn-secondary border-light" role="button" href="https://www.linkedin.com/in/kaixiang-ren/" data-bs-hover-animate="pulse" style="margin: 0px;margin-right: 15px;margin-left: 15px;background-color: rgba(66,220,163,0);width: 140px;height: 42px;padding: 8px;"><i class="fab fa-linkedin"></i><span style="margin: 0px;margin-right: 5px;margin-left: 5px;">linkedin</span></a>
+                        <a
+                            class="btn btn-secondary border-light" role="button" href="https://medium.com/@homelabdefense" data-bs-hover-animate="pulse" style="margin: 0px;padding: 8px;width: 140px;background-color: rgba(66,220,163,0);margin-right: 15px;margin-left: 15px;"><i class="fab fa-medium"></i><span style="margin: 0px;margin-right: 5px;margin-left: 5px;">medium</span></a><a class="btn btn-secondary border-light" role="button" href="https://twitter.com/KaixiangRen" data-bs-hover-animate="pulse"
+                                style="margin: 0px;padding: 8px;width: 140px;background-color: rgba(66,220,163,0);margin-right: 15px;margin-left: 15px;"><i class="fab fa-twitter"></i><span style="margin: 0px;margin-right: 5px;margin-left: 5px;">twitter</span></a>
+                            <a
+                                class="btn btn-secondary border-light" role="button" href="https://github.com/happyren" data-bs-hover-animate="pulse" style="margin: 0px;padding: 8px;width: 140px;background-color: rgba(66,220,163,0);margin-right: 15px;margin-left: 15px;"><i class="fab fa-github"></i><span style="margin: 0px;margin-right: 5px;margin-left: 5px;">Github</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="about" class="content-section text-center" style="margin: 0px;padding: 146px;height: 520px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2></h2>
+                    <p>{{content}}</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="map-clean"><iframe allowfullscreen="" frameborder="0" width="100%" height="450" src="https://www.google.com/maps/embed/v1/place?key=+&amp;q=Paris%2C+France&amp;zoom=15"></iframe></div>
+    <footer>
+        <div class="container text-center">
+            <p>Copyright ©&nbsp;Home Lab Defense 2019</p>
+        </div>
+    </footer>
+    <script src="/public/js/jquery.min.js"></script>
+    <script src="/public/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="/public/js/grayscale.js"></script>
+    <script src="/public/js/bs-animation.js"></script>
+</body>
 
-      <div class="container content">
-        {{ content }}
-      </div>
-    </div>
-
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
-
-    <script>
-      (function(document) {
-        var toggle = document.querySelector('.sidebar-toggle');
-        var sidebar = document.querySelector('#sidebar');
-        var checkbox = document.querySelector('#sidebar-checkbox');
-
-        document.addEventListener('click', function(e) {
-          var target = e.target;
-
-          if(!checkbox.checked ||
-             sidebar.contains(target) ||
-             (target === checkbox || target === toggle)) return;
-
-          checkbox.checked = false;
-        }, false);
-      })(document);
-    </script>
-    {% include analytics.html %}
-  </body>
 </html>

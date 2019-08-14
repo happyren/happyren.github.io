@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Securely deploy a MySQL server on AWS
-tag: fundamental
 ---
 
 In previous [post](https://homelabdefense.com/2019/04/29/configure-nodejs-mongodb-testsite-on-aws/), I have deployed a testing website for my project on AWS (Amazon Web Service). However, to quickly set up the testing environment, I didn't follow the right practice to make my database secured. Instead, it is exposed to external attack. In this write-up, I would walk through mysql's setup on AWS and try to make it secure **given that you want remote connection**. The write-up would focus on deploying MySQL on EC2, one of the reason is I usually only use one instance for doing tests, that consists both web server and database; and is AWS RDS didn't come across my mind, but more discussion about it in future is a definite.

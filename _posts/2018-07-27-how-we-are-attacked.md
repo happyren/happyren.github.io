@@ -1,7 +1,6 @@
 ---
 layout:	post
 title:	How we are attacked?[To be continued]
-tag: pentest
 ---
 
 How are we attacked? It is a question too hard to answer, but perfect for the introduction. I will list all that I know, and keep this post updated once I got more knowledge.

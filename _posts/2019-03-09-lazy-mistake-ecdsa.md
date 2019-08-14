@@ -1,7 +1,6 @@
 ---
 layout: post
 title: How lazy mistake cause cryptographical failure(ECDSA)
-tag: [cryptography, pentest, fundamental]
 ---
 
 In many cases, the deployment of cryptographic algorithms fail on their purposes, some may blame to the algorithms, but some comes from misconfiguration and lazy mistakes(where you don't crack the algorithm but still crack the cryptography). In this article, we would briefly introduce how a "should be random" variable leads to failure of ECDSA.

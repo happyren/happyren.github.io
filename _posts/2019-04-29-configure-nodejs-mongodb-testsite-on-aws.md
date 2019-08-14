@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Configure a Node.js and MongoDB test site on aws
-tag: [fundamental, pentest]
 ---
 
 In daily practice, we normally want to setup a testing target as realistic as possible. For my case, I want to have a SQL-injection vulnerable website ready to be exploited. Some configurations could be annoying, however, this short write up should cover some common issues.

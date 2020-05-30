@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home - Home Lab Defense
+title: Home - Kaixiang.dev
 ---
 
 Security is not an afterthought. It's getting more reality out of the words these days. Data leaks from big corps one incident after another, personal device tracking scandals keep emerging. The cybersecurity is now getting more public exposure than ever before.
